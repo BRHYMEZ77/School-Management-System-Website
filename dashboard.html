@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Students - School Management System</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="navbar">
+  <div class="logo">SchoolLogo</div>
+  <nav>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="students.html" class="active">Students</a></li>
+      <li><a href="attendance.html">Attendance</a></li>
+      <li><a href="fees.html">Fees</a></li>
+      <li><a href="logout.html">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="students-management">
+  <div class="container">
+    <h2>Student Records</h2>
+    <button class="btn-primary">Add New Student</button>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Grade</th><th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td><td>John Doe</td><td>Grade 10</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <!-- More student rows -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="contact-info">
+      <p>123 School Street, City, Country</p>
+      <p>Phone: +123 456 7890 | Email: info@school.com</p>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2024 School Name. All rights reserved.</p>
+</footer>
+</body>
+</html>
